@@ -5,3 +5,9 @@
 <img width="1710" alt="Screenshot 2025-05-08 at 7 16 18 PM" src="https://github.com/user-attachments/assets/7887a495-3741-41d3-8635-a3e82d922667" />
 <img width="1710" alt="Screenshot 2025-05-08 at 7 16 24 PM" src="https://github.com/user-attachments/assets/4bab9bd4-0d22-466c-9c16-c5cbc1785eb9" />
 <img width="1710" alt="Screenshot 2025-05-08 at 7 16 33 PM" src="https://github.com/user-attachments/assets/7240712b-2a96-422d-9ce0-f8122dd209fc" />
+
+# Task 2
+<img width="1710" alt="Screenshot 2025-05-08 at 9 43 35 PM" src="https://github.com/user-attachments/assets/28fb3201-b115-4fe0-811e-b3107985064f" />
+<img width="1710" alt="Screenshot 2025-05-08 at 9 43 43 PM" src="https://github.com/user-attachments/assets/66137cfe-ac79-4486-ab8d-f9f3f696ef3d" />
+<img width="1710" alt="Screenshot 2025-05-08 at 9 43 51 PM" src="https://github.com/user-attachments/assets/93ac3528-0cab-4f47-891a-40fba52ecba3" />
+<img width="1710" alt="Screenshot 2025-05-08 at 9 43 58 PM" src="https://github.com/user-attachments/assets/8f4186fd-8f77-4b44-be9c-4977600ff396" />
