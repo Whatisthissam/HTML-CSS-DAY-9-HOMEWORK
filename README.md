@@ -46,6 +46,10 @@
 
 
 # Task 4
+<img width="1710" alt="Screenshot 2025-05-08 at 9 59 54 PM" src="https://github.com/user-attachments/assets/e0cd050c-1fba-4801-9891-773fcae774db" />
+<img width="1710" alt="Screenshot 2025-05-08 at 10 00 03 PM" src="https://github.com/user-attachments/assets/f1c81416-d28f-4380-8aa4-7cceedbcfe4c" />
+<img width="1710" alt="Screenshot 2025-05-08 at 10 00 08 PM" src="https://github.com/user-attachments/assets/ac6f7d9d-d5a2-491a-9bf5-617636560a32" />
+
 
 
 
