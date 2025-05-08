@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-4</title>
+    <style>
+        body {
+            background-color: rgba(220, 20, 60, 0.865);
+        }
+
+        section {
+            padding: 30px;
+            margin: 10px;
+            border: 2px solid #d6c0c0;
+        }
+
+        /* Exercise 1 css */
+
+        .card {
+            background-color: lightgray;
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        #name {
+            color: darkblue;
+        }
+
+        .bio {
+            font-style: italic;
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+
+        /* Exercise 2 css */
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav a {
+            text-transform: uppercase;
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            color: red;
+        }
+
+        nav li:first-child a {
+            background-color: rgba(220, 20, 60, 0.684);
+        }
+
+
+        /* Exercise 3 css */
+
+
+        input {
+            border: 1px solid #ccc;
+            padding: 8px;
+            margin-bottom: 10px;
+            display: block;
+            width: 40%;
+            box-sizing: border-box;
+        }
+
+        input:focus {
+            border-color: rgba(0, 0, 255, 0.562);
+        }
+
+        button {
+            background-color: rgba(7, 212, 7, 0.906);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="email"] {
+            border-color: rgb(255, 166, 0);
+        }
+
+        /* Exercise 4 css */
+
+        h3::before {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: red;
+            margin-bottom: 5px;
+        }
+
+        p::first-line {
+            text-transform: capitalize;
+        }
+
+        p::before {
+            content: '*';
+            color: blue;
+        }
+
+        /* Exercise 5 css */
+
+        .blog h3 {
+            font-weight: bold;
+        }
+
+        .blog article:nth-child(2) p {
+            color: green;
+        }
+
+        .blog article:nth-child(2) {
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center; padding: 20px; color:azure;"> ✅CSS Selectors Exercises</h1>
+    <section classs="section">
+        <h2 style="padding: 20px; color:azure;">Exercise 1: Style a Simple Profile Card</h2>
+        <div class="card">
+            <h2 id="name">Alex Johnson</h2>
+            <p class="bio">Front-end Developer from New York</p>
+            <a href="#">View Profile</a>
+        </div>
+    </section>
+
+    <br>
+
+
+    <section classs="section" style="background-color: white;">
+        <h2 style="padding: 20px; color:black;">Exercise 2: Navigation Menu Styling</h2>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <br>
+
+
+    <section classs="section">
+        <h2 style="color: azure;"> Exercise 3: Form Field Focus</h2>
+        <form>
+            <label style="color: azure;">Email:</label>
+            <input type="email" />
+
+            <label style="color: azure;">Password:</label>
+            <input type="password" />
+
+            <button>Login</button>
+        </form>
+    </section>
+
+    <br>
+
+
+    <section classs="section" style="background-color: white;">
+        <h2>Exercise 4: Use Pseudo-elements</h2>
+        <article>
+            <h3>Breaking News</h3>
+            <p>India air strikes on pakistan and destroyed 9 terrorist headquarters🫡</p>
+        </article>
+    </section>
+
+    <br>
+
+    <section classs="section">
+        <h2 style="color: white;">Exercise 5: Advanced Targeting</h2>
+        <section class="blog" style="background-color: white;">
+            <h2>Blog Posts</h2>
+            <article>
+                <h3>Post One</h3>
+                <p>Text of post one.</p>
+            </article>
+            <article>
+                <h3>Post Two</h3>
+                <p>Text of post two.</p>
+            </article>
+        </section>
+
+    </section>
+
+    <br>
+
+</body>
+
+</html>
