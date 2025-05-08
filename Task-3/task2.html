@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK-2</title>
+    <style>
+        body {
+            background-color: rgba(128, 128, 128, 0.76);
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .gallery {
+            display: grid;
+            gap: 10px;
+            padding: 40px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        @media (max-width: 599px) {
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (min-width: 600px) and (max-width: 899px) {
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (min-width: 900px) {
+            .gallery {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gallery">
+        <img src="https://i.pinimg.com/736x/ad/0e/2c/ad0e2ceb6658feeb297f9ba007879be5.jpg"
+            style="height: 400px; width:400px">
+        <img src="https://i.pinimg.com/736x/69/4e/68/694e68e6a557fd3828066111a7ba91dc.jpg"
+            style="height: 400px; width:400px">
+        <img src="https://i.pinimg.com/736x/ef/fe/53/effe53cdada99539ccb5eb9a5ef32c6a.jpg"
+            style="height: 400px; width:400px">
+        <img src="https://i.pinimg.com/736x/d9/81/b0/d981b05748dff56bf5cc0d72b854cb08.jpg"
+            style="height: 400px; width:400px">
+        <img src="https://i.pinimg.com/736x/ef/2e/d2/ef2ed2fb20cad02215b19cac9b092bb3.jpg"
+            style="height: 400px; width:400px">
+        <img src="https://i.pinimg.com/736x/c1/93/b6/c193b603f82348383a8a134752a03810.jpg"
+            style="height: 400px; width:400px">
+        <img src="https://i.pinimg.com/736x/2a/a0/5b/2aa05b2b7abea6501bb98bc714388d96.jpg"
+            style="height: 400px; width:400px">
+        <img src="https://i.pinimg.com/736x/d0/d1/c8/d0d1c85aca7c81a47b32c82b521912a4.jpg"
+            style="height: 400px; width:400px">
+    </div>
+</body>
+
+</html>
